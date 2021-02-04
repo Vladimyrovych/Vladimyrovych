@@ -7,13 +7,35 @@
     <title>My pages</title>
 
     <link rel="stylesheet" href="https://bootswatch.com/4/darkly/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
     <div class="jumbotron">
-        <ul class="list-group">
-            <a href="./pages/weather2/index.html" class="list-group-item list-group-item-active">Weather2</a>
-        </ul>
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card bg-secondary">
+                        <a href="./pages/weather2/index.html">
+                            <iframe src="./pages/weather2/index.html" class="card-img-top" frameborder="0"></iframe>
+                            <div class="card-body">
+                                <h5 class="card-title">Weather2</h5>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card bg-secondary">
+                        <a href="./pages/weather/index.html">
+                            <iframe src="./pages/weather/index.html" class="card-img-top" frameborder="0"></iframe>
+                            <div class="card-body">
+                                <h5 class="card-title">Weather</h5>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 
